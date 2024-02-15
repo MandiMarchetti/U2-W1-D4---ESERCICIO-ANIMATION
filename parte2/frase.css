@@ -8,3 +8,36 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+
+
+
+body{
+   margin-inline: auto;
+   line-height: 1.8;
+   font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#testoAlternato{
+    padding: 0 2rem 0 2rem;
+    position: relative;
+    top: 6rem;
+    border: solid 0.2rem;
+    border-color: gray;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 1.8rem;
+    color: darkslategrey;
+    border-radius: 15px;
+}
+
+span i{
+    color: #7ea6bf;
+}
+
