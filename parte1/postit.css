@@ -26,7 +26,7 @@ body{
     padding: 2em;
     margin: 0.7em;
     box-shadow: 2px 2px 3px black;
-    transform: rotate(-2deg);
+    transform: rotate(-3deg);
 }
 
 .task2, .task6{
@@ -39,7 +39,7 @@ body{
     padding: 2em;
     margin: 0.7em;
     box-shadow: 2px 2px 3px black;
-    transform: rotate(-2deg);
+    transform: rotate(-3deg);
 }
 
 .task4, .task7{
@@ -52,5 +52,11 @@ body{
     padding: 2em;
     margin: 0.7em;
     box-shadow: 2px 2px 3px black;
-    transform: rotate(-2deg);
+    transform: rotate(-3deg);
+}
+
+/*ANIMATION*/
+.task1:hover{
+    transform: scale(150px);
+    rotate: 3deg;
 }
