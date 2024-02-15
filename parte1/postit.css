@@ -1,4 +1,5 @@
 body{
+    margin-top: 60px;
     align-items: center;
 }
 
@@ -57,6 +58,51 @@ body{
 
 /*ANIMATION*/
 .task1:hover{
-    transform: scale(150px);
+    transform: scale(2);
+    z-index: 10;
     rotate: 3deg;
+    cursor: pointer;
+}
+
+.task2:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task3:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task4:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task5:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task6:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task7:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
+}
+.task8:hover{
+    transform: scale(2);
+    z-index: 10;
+    rotate: 3deg;
+    cursor: pointer;
 }
