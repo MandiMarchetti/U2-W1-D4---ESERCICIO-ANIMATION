@@ -1,0 +1,56 @@
+body{
+    align-items: center;
+}
+
+.lavagna{
+    margin-top: 15px;
+    background-color: #666666;
+    margin-inline: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lavagna div h3{
+    font-weight: bold;
+}
+
+.task1, .task3, .task5, .task8{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2em;
+    margin: 0.7em;
+    box-shadow: 2px 2px 3px black;
+    transform: rotate(-2deg);
+}
+
+.task2, .task6{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2em;
+    margin: 0.7em;
+    box-shadow: 2px 2px 3px black;
+    transform: rotate(-2deg);
+}
+
+.task4, .task7{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2em;
+    margin: 0.7em;
+    box-shadow: 2px 2px 3px black;
+    transform: rotate(-2deg);
+}
